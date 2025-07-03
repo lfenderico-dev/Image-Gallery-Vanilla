@@ -1,0 +1,71 @@
+body{
+    background-image: url(/assets/photos/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 170%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 1) ;
+}
+header h1{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 2vw;
+}
+
+#container{
+    display: flex;
+    overflow-x: auto;
+    width: 60vw;
+    height: 40vh;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#wrapper{
+    box-shadow: 0 0 100px rgba(0, 0, 0, 1) ;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+#leftBtn{
+    display: flex;
+    order: -1;
+    width: 6vw;
+    height: 10vh;
+    background: none;
+    border: none;
+}
+#leftBtn img{
+    width: 100%;
+    height: 100%;
+}
+
+#rightBtn{
+    display: flex;
+    order: 1;
+    width: 6vw;
+    height: 10vh;
+    background: none;
+    border: none;
+}
+#rightBtn img{
+    width: 100%;
+    height: 100%;
+}
