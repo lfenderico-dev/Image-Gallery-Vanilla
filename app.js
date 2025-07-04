@@ -10,12 +10,11 @@ container.addEventListener(`wheel`, (event) => {
 // Add event listener to go back with the left button
 const leftBtn = document.getElementById('leftBtn');
 leftBtn.addEventListener('click', ()=>{
-    container.smoothScroll;
-    container.scrollLeft -= 900;
+    container.scrollLeft -= 750;
 })
 
 // Add event listener to go right with the right button
 const rgihtBtn = document.getElementById('rightBtn');
 rightBtn.addEventListener('click', ()=>{
-    container.scrollLeft += 900;
+    container.scrollLeft += 750;
 })

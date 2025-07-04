@@ -1,0 +1,45 @@
+@media(max-width: 1024px){
+    #container{
+        width: 60vw;
+        height: 25vh;
+    }
+
+    #leftBtn{
+        width: 8vw;
+        height: 6vh;
+    }
+
+    #rightBtn{
+        width: 8vw;
+        height: 6vh;
+    }
+}
+
+@media(max-width: 600px){
+    header{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    header h1{
+        font-size: 120%;
+    }
+
+    #container{
+        width: 55vw;
+        height: 30vh;
+    }
+
+    #leftBtn{
+        width: 12vw;
+        height: 5vh;
+    }
+
+    #rightBtn{
+      width: 12vw;
+        height: 5vh;
+    }
+}
+
+
+
